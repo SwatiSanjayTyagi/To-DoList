@@ -1,0 +1,28 @@
+
+var today = new Date()
+var tday=today.getDate()
+var sday = tday.toString()
+var tmonth=today.getMonth()+1
+var stmonth = tmonth.toString()
+var tyear=today.getFullYear()
+var styear = tyear.toString()
+var todaydate = styear+'-'+stmonth+'-'+sday
+var dtdate = todaydate.toDateString
+
+var Taskdt = '2020-09-12'
+
+
+var td=Taskdt
+
+
+
+getUTCDate()
+
+
+
+var Tdate = new Date()
+var cs = Tdate.toString()
+
+var sysDate = new Date()
+var  toDay = sysDate.toDateString()
+var dt = sysDate.getDate.toString

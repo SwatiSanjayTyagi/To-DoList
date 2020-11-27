@@ -1,0 +1,61 @@
+*{
+  text-align:center;
+}
+
+.container{
+  height: 1200px;
+  width: 700px;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: lightgrey;
+  font-size: medium;
+  color: black;
+}
+
+input[type=number], select 
+{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block; 
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: small;    
+    
+}
+
+input[type=text], select 
+{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block; 
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: small;    
+}
+
+input[type=button], select 
+{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-size: small;    
+}
+
+
+#AddBtn:hover{
+  background-color: royalblue
+}
+
+.truechk {
+  text-decoration: line-through;
+}
+
+.overDate {
+  border: 5px solid yellow;
+  border-radius: 100px;
+}

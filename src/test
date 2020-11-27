@@ -1,0 +1,8 @@
+function randomA(numA) {
+    return function randomB(numB){
+        return numA + numB
+    }
+}
+
+var temp = randomA(3)
+
